@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95C0565B1EE526EB00C73F6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C0565A1EE526EB00C73F6B /* AppDelegate.swift */; };
+		95C0565D1EE526EB00C73F6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C0565C1EE526EB00C73F6B /* ViewController.swift */; };
+		95C056601EE526EB00C73F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C0565E1EE526EB00C73F6B /* Main.storyboard */; };
+		95C056621EE526EB00C73F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C056611EE526EB00C73F6B /* Assets.xcassets */; };
+		95C056651EE526EB00C73F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C056631EE526EB00C73F6B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95C056571EE526EB00C73F6B /* CirtruWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CirtruWebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C0565A1EE526EB00C73F6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95C0565C1EE526EB00C73F6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95C0565F1EE526EB00C73F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95C056611EE526EB00C73F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95C056641EE526EB00C73F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95C056661EE526EB00C73F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95C056541EE526EB00C73F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95C0564E1EE526EB00C73F6B = {
+			isa = PBXGroup;
+			children = (
+				95C056591EE526EB00C73F6B /* CirtruWebview */,
+				95C056581EE526EB00C73F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95C056581EE526EB00C73F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95C056571EE526EB00C73F6B /* CirtruWebview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95C056591EE526EB00C73F6B /* CirtruWebview */ = {
+			isa = PBXGroup;
+			children = (
+				95C0565A1EE526EB00C73F6B /* AppDelegate.swift */,
+				95C0565C1EE526EB00C73F6B /* ViewController.swift */,
+				95C0565E1EE526EB00C73F6B /* Main.storyboard */,
+				95C056611EE526EB00C73F6B /* Assets.xcassets */,
+				95C056631EE526EB00C73F6B /* LaunchScreen.storyboard */,
+				95C056661EE526EB00C73F6B /* Info.plist */,
+			);
+			path = CirtruWebview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95C056561EE526EB00C73F6B /* CirtruWebview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C056691EE526EB00C73F6B /* Build configuration list for PBXNativeTarget "CirtruWebview" */;
+			buildPhases = (
+				95C056531EE526EB00C73F6B /* Sources */,
+				95C056541EE526EB00C73F6B /* Frameworks */,
+				95C056551EE526EB00C73F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CirtruWebview;
+			productName = CirtruWebview;
+			productReference = 95C056571EE526EB00C73F6B /* CirtruWebview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95C0564F1EE526EB00C73F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Cirtru;
+				TargetAttributes = {
+					95C056561EE526EB00C73F6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5TZ9GR9TC3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95C056521EE526EB00C73F6B /* Build configuration list for PBXProject "CirtruWebview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95C0564E1EE526EB00C73F6B;
+			productRefGroup = 95C056581EE526EB00C73F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95C056561EE526EB00C73F6B /* CirtruWebview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95C056551EE526EB00C73F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C056651EE526EB00C73F6B /* LaunchScreen.storyboard in Resources */,
+				95C056621EE526EB00C73F6B /* Assets.xcassets in Resources */,
+				95C056601EE526EB00C73F6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95C056531EE526EB00C73F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C0565D1EE526EB00C73F6B /* ViewController.swift in Sources */,
+				95C0565B1EE526EB00C73F6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95C0565E1EE526EB00C73F6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C0565F1EE526EB00C73F6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95C056631EE526EB00C73F6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C056641EE526EB00C73F6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95C056671EE526EB00C73F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95C056681EE526EB00C73F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95C0566A1EE526EB00C73F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TZ9GR9TC3;
+				INFOPLIST_FILE = CirtruWebview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cirtru.CirtruWebview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		95C0566B1EE526EB00C73F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TZ9GR9TC3;
+				INFOPLIST_FILE = CirtruWebview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cirtru.CirtruWebview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95C056521EE526EB00C73F6B /* Build configuration list for PBXProject "CirtruWebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C056671EE526EB00C73F6B /* Debug */,
+				95C056681EE526EB00C73F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C056691EE526EB00C73F6B /* Build configuration list for PBXNativeTarget "CirtruWebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C0566A1EE526EB00C73F6B /* Debug */,
+				95C0566B1EE526EB00C73F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95C0564F1EE526EB00C73F6B /* Project object */;
+}
